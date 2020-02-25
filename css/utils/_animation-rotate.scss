@@ -1,0 +1,12 @@
+@use "vendor-rules";
+
+@mixin rotate-cycle() {
+    @include vendor-rules.keyframes(rotate-cycle) {
+        from {
+            -webkit-transform: rotate(0deg);
+        }
+        to {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+}

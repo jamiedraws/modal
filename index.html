@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Questrial&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+
+        <script defer src="js/modal.js"></script>
+    </head>
+    <body>
+        <form id="modalForm" class="bar">
+            <input
+                id="modalText"
+                type="text"
+                class="bar__input"
+                placeholder="Type a custom message"
+                required
+            />
+            <button id="showModal" class="bar__button">Show Modal</button>
+        </form>
+
+        <main>
+            <h1>Welcome</h1>
+        </main>
+
+        <div class="modal">
+            <div class="modal__load-state"></div>
+            <div class="modal__text">Testing</div>
+            <button id="hideModal" class="modal__button">Close</button>
+        </div>
+
+        <script defer src="js/app.js"></script>
+    </body>
+</html>

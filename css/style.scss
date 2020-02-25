@@ -1,0 +1,4 @@
+@use "layouts/default";
+@use "states/modal";
+
+@include modal.init;
