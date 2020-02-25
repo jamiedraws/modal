@@ -1,5 +1,5 @@
 (function(global) {
-    // set up modal
+    // wire up modal
     const m = modal({
         modal: {
             value: document.querySelector(".modal")
