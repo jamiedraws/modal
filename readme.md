@@ -65,7 +65,7 @@ In a similar pattern, we can declare the visibility state in a separate CSS clas
 ```css
 .modal--is-visible {
     opacity: 1;
-    pointer-events: all;
+    pointer-events: auto;
 }
 ```
 
@@ -81,3 +81,55 @@ modal.classList.add("modal--is-visible");
 // disable the modal's visible state
 modal.classList.remove("modal--is-visible");
 ```
+
+Now that all of the ingredients have been added into the recipe, the icing on the cake is simply up to you, the author, and what your intentions are.
+
+This icing serves as the intent for what this Github repository was created to deliver. Feel free to download or clone this repository to give the modal a test run.
+
+## Specification, Documentation & Browser Support
+
+### CSS
+
+Positioning
+
+1. [W3C Recommendation - 9 Visual formatting model / 9.3 Positioning schemes](https://www.w3.org/TR/CSS2/visuren.html#propdef-position)
+2. [CSS 2.1 - Browser Support & Global Marketshare](https://caniuse.com/#search=CSS%202.1)
+3. [MDN web docs - position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+
+Pointer-Events
+
+1. [W3C Recommendation - 16 Interactivity / 16.6 The ‘pointer-events’ property](https://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty)
+2. [CSS pointer-events (for HTML) - Browser Support & Global Marketshare](https://caniuse.com/#search=pointer%20events)
+3. [MDN web docs - pointer-events](https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events)
+
+Opacity
+
+1. [W3C Recommendation - 3. Color properties / 3.2. Transparency: the ‘opacity’ property](https://www.w3.org/TR/css-color-3/#transparency)
+2. [CSS3 Opacity - Browser Support & Global Marketshare](https://caniuse.com/#search=opacity)
+3. [MDN web docs - opacity](https://developer.mozilla.org/en-US/docs/Web/CSS/opacity)
+
+Z-Index
+
+1. [W3C Recommendation - 9 Visual formatting model / 9.9.1 Specifying the stack level: the 'z-index' property](https://www.w3.org/TR/CSS2/visuren.html#z-index)
+2. [CSS property: z-index - Browser Support & Global Marketshare](https://caniuse.com/#search=z-index)
+3. [MDN web docs - z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
+
+### JavaScript
+
+const
+
+1. [Standard ECMAScript-262 6th Edition / June 2015 - 13.3.1Let and Const Declarations](https://www.ecma-international.org/ecma-262/6.0/#sec-let-and-const-declarations)
+2. [Const - Browser Support & Global Marketshare](https://caniuse.com/#search=const)
+3. [MDN web docs - const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+
+Element.querySelector
+
+1. [DOM Living Standard Specification](https://dom.spec.whatwg.org/#dom-parentnode-queryselectorall)
+2. [querySelector/querySelectorAll - Browser Support & Global Marketshare](https://caniuse.com/#search=queryselector)
+3. [MDN web docs Element.querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+
+Element.classList
+
+1. [DOM Living Standard Specification](https://dom.spec.whatwg.org/#dom-element-classlist)
+2. [classList (DOMTokenList) - Browser Support & Global Marketshare](https://caniuse.com/#search=classlist)
+3. [MDN web docs Element.classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
